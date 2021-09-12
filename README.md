@@ -6,7 +6,7 @@ go run main.go
 A minimal example of using Redis by Go
 
 Usage:
-  go-redis-example [command]
+  go run main.go [command]
 
 Available Commands:
   help        Help about any command
@@ -18,5 +18,5 @@ Flags:
   -c, --channel_name string   Channel Name (required) (default "default_chan")
   -h, --help                  help for go-redis-example
 
-Use "go-redis-example [command] --help" for more information about a command.
+Use "go run main.go [command] --help" for more information about a command.
 ```
